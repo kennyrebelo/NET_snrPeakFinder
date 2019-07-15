@@ -2,7 +2,7 @@
 
 Python script that requires samtools installed in run environment. Developed and tested with [SAMtools](http://samtools.sourceforge.net/) v1.7.
 
-From a set of genomic regions of interest (.bed) it will return the nucleotide regions (.bed) that were enriched for NET-seq signal (i.e., nucleotides with a NET-seq peak). NET-seq peaks were defined as described in (Churchman & Weissman, 2011)[https://www.nature.com/articles/nature09652].
+From a set of genomic regions of interest (.bed) it will return the nucleotide regions (.bed) that were enriched for NET-seq signal (i.e., nucleotides with a NET-seq peak). NET-seq peaks were defined as described in (Churchman)[https://www.nature.com/articles/nature09652].
 
 
 Parameters:
