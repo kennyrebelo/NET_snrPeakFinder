@@ -93,7 +93,7 @@ for bam in bams:
 		if nt[0] is not None:
 
 			# Forward reads
-			peakPlus=nt[0] #even though they are variables with the same information, it will be useful later
+			peakPlus=nt[0]
 			peakplus_reads=float(nt[0][-1])
 
 			flanku_F=nt[0][0]+":"+str(int(nt[0][1])-100)+"-"+str(int(nt[0][1])-1) #upstream region, considering + strandness (downstream region if - strandness)
